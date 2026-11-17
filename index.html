@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+
+    <style>
+        h1 {
+            color: blue;
+        }
+   
+   section {
+    min-width: 10vh;
+    margin:auto;
+    padding: 20px;
+
+   }
+   </style>
+</head>
+
+<body>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home">
+        <h1 id="title">Hello!</h1>
+
+        <p>Welcome to my personal website.</p>
+
+        <button onclick="document.getElementById('title').innerHTML='Welcome!'">
+            Click Me
+        </button>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <img src="rear-view-programmer-working-all-night-long.jpg" >
+       
+        <h2>About Me</h2>
+
+        <p>My name is Eunice. I am learning web development </p>
+    </section>
+
+</body>
+</html>
